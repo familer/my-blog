@@ -8,7 +8,9 @@ module.exports = {
         'assets': '@/assets',
         'components': '@/components',
         'views': '@/views',
-        'styles': '@/styles'
+        'styles': '@/styles',
+        'utils': '@/utils',
+        'apis': '@/apis'
       }
     }
   },
