@@ -1,7 +1,5 @@
 const router = require('koa-router')()
 
-router.prefix('/api')
-
 router.get('/', async ctx => {
   ctx.body = "eternalcoder";
 })
@@ -18,8 +16,8 @@ router.get('/home', async ctx => {
     }
   )
   ctx.body = {
-    code: 200,
-    msg: 'hello world'
+    query: ctx.request.query,
+    querystring: ctx.request.querystring
   }
 })
 
