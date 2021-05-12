@@ -13,5 +13,5 @@
   color: #2c3e50;
 }
 
-@import "./style/base.css";
+@import "./styles/base.css";
 </style>
