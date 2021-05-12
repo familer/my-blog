@@ -18,8 +18,8 @@ router.get('/home', async ctx => {
     }
   )
   ctx.body = {
-    query: ctx.request.query,
-    querystring: ctx.request.querystring
+    code: 200,
+    msg: 'hello world'
   }
 })
 
